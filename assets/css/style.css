@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 /* Social Media Icons */
 
 .social-container {
-    height: 1rem;
+    height: 2rem;
     text-align: right;
 }
 
@@ -23,7 +23,7 @@ body {
     list-style-type: none;
     display: inline-block;
     margin-right: 22px;
-    margin-top: 10px;
+    margin-top: 5px;
     vertical-align: middle;
 }
 
@@ -34,4 +34,45 @@ body {
 
 .social i:hover {
     opacity: 0.7;
+}
+
+/* Header and Logo */
+
+.header-container {
+    height: 10rem;
+    display: flex;
+
+}
+
+.header-logo {
+    display: inline-block;
+}
+
+
+.header-logo img {
+    vertical-align: middle;
+}
+
+/* Navigation */
+
+nav {
+    letter-spacing: 4px;
+    width: 100%;
+    font-size: 130%;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-url {
+    list-style: none;
+    display: flex;
+}
+
+.navmenu a {
+    color: #222831;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    text-align: right;
 }
