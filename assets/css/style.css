@@ -12,9 +12,26 @@ body {
     color: #222831;
 }
 
+/* Social Media Icons */
+
 .social-container {
     height: 1rem;
     text-align: right;
 }
 
+.social li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 22px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
 
+.social i {
+    font-size: 120%;
+    color: #00ADB5;
+}
+
+.social i:hover {
+    opacity: 0.7;
+}
