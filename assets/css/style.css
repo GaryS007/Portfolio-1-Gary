@@ -45,7 +45,7 @@ h1, h2 {
 /* Header and Logo */
 
 .header-container {
-    height: 12rem;
+    min-height: 12rem;
     display: flex;
     flex-direction: column;
 }
@@ -177,14 +177,12 @@ nav a {
 
 @media (max-width:800px) {
     .header-container {
-        flex-direction: column;
         text-align: center;
     }
 
     .nav-container {
         text-align: center;
         margin-top: 0;
-        height: 100%;
     }
 
     nav li {
@@ -210,4 +208,9 @@ nav a {
         max-width: 95%;
     }
 
+}
+
+@media screen and (max-width: 950px) {
+    .about-grid-container { grid-template-columns: 1fr;
+    }
 }
