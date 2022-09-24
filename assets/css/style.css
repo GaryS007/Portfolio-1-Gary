@@ -125,8 +125,14 @@ nav a {
 
 .about-h1 {
     text-align: center;
+    text-decoration: uppercase;
     margin: 5px;
     display: block-inline;
+}
+
+.about-h1 > h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .about-grid h2 {
@@ -151,6 +157,7 @@ nav a {
     align-items: center;
     background-color: rgba(34, 40, 49, 0.7);
     color: #00ADB5;
+    border-top: 2px solid #00ADB5;
 }
 
 .social-footer li {
@@ -205,7 +212,24 @@ nav a {
     }
 
     .about-grid-container img {
-        max-width: 95%;
+        max-width: 97%;
+    }
+
+    .about2, .about4 {
+        margin-bottom: 40px;
+    }
+
+    .about1 { 
+        order: 1; 
+    }
+    .about2 { 
+        order: 2; 
+    }
+    .about3 { 
+        order: 4; 
+    }
+    .about4 { 
+        order: 3; 
     }
 
 }
