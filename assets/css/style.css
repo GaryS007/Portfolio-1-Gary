@@ -106,6 +106,7 @@ nav a {
 .hero-image {
     min-height: 50vh;
     width: 100%;
+    min-width: 100%;
     margin-top: 10px;
     border-top: 2px solid #00ADB5;
     background: url('../images/Hero\ Image\ 1.jpg') no-repeat center center;
@@ -117,10 +118,9 @@ nav a {
 /* About Us Section */
 
 .about-us-container {
-    padding-left: 70px;
-    padding-right: 70px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
 }
 
 .about-h1 {
@@ -154,6 +154,7 @@ nav a {
     font-weight: bolder;
     font-size: 140%;
     cursor: pointer;
+    margin-bottom: 2em;
 }
 
 .about-grid-container {
@@ -164,8 +165,12 @@ nav a {
     gap: 2rem;
 }
 
+.about-us-container {
+
+}
+
 .about-grid img {
-    margin-top: 2em;
+    margin-bottom: 2rem;
 }
 
 .about-button:hover {
@@ -178,6 +183,7 @@ nav a {
 
 .footer-container {
     width: 100%;
+    min-width: 100%;
     height: 10rem;
     text-align: center;
     align-items: center;
@@ -239,14 +245,15 @@ footer a {
     }
 
     .about-grid-container {
-        display: block;
         text-align: center;
         margin: 0;
     }
 
-    .about-grid-container img {
+    .about-grid img {
         max-width: 100%;
     }
+
+    
 
 
     .about2, .about4 {
@@ -268,7 +275,21 @@ footer a {
 
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 900px) {
     .about-grid-container { grid-template-columns: 1fr;
+    }
+
+    .about-grid img {
+        margin-bottom: 15px;
+    }
+    
+    footer {
+        min-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    footer { min-width: 100%;
     }
 }
