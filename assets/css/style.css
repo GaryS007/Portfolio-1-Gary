@@ -216,9 +216,6 @@ footer a {
     color: #00ADB5;
 }
 
-
-
-
 /* Responsive */
 
 @media (max-width:800px) {
@@ -276,20 +273,22 @@ footer a {
 }
 
 @media screen and (max-width: 900px) {
-    .about-grid-container { grid-template-columns: 1fr;
+    .about-grid-container { 
+        grid-template-columns: 1fr;
     }
 
     .about-grid img {
         margin-bottom: 15px;
     }
+
+
     
-    footer {
-        min-width: 100%;
-    }
 
 }
 
-@media screen and (max-width: 900px) {
-    footer { min-width: 100%;
+@media screen and (max-width: 1200px) {
+    .about-grid-container {
+        grid-template-columns: 1fr;
     }
+
 }
