@@ -182,6 +182,10 @@ nav a {
     margin-right: 10%;
 }
 
+.treatment-container h2 {
+    text-align: center;
+}
+
 .treatments-text {
     margin-left: 10%;
     margin-right: 10%;
@@ -216,6 +220,15 @@ nav a {
 
 .treatment-grid-container img {
     border: 2px solid #00ADB5;
+}
+
+.treatment2-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -313,6 +326,10 @@ footer a {
         order: 3; 
     }
 
+    .treatment2-grid-container {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -322,6 +339,10 @@ footer a {
 
     .about-grid img {
         margin-bottom: 15px;
+    }
+
+    .treatment2-grid-container {
+        grid-template-columns: 1fr;
     }
 
 
@@ -334,4 +355,7 @@ footer a {
         grid-template-columns: 1fr;
     }
 
+    .treatment2-grid-container {
+        grid-template-columns: 1fr;
+    }
 }
