@@ -15,7 +15,7 @@ body {
 
 h1, h2 {
     color:#00ADB5;
-    text-decoration: uppercase;
+
 }
 
 /* Social Media Icons */
@@ -118,9 +118,9 @@ nav a {
 /* About Us Section */
 
 .about-us-container {
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -160,11 +160,6 @@ nav a {
     grid-gap: 2em;
 }
 
-.about-us-container {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 .about-grid img {
     margin-bottom: 2rem;
 }
@@ -180,6 +175,48 @@ nav a {
 }
 
 /* Treatments Page */
+
+.treatment-container {
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.treatments-text {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.treatments-text h1 {
+    text-align: center;
+    margin: 1em;
+    display: block-inline;   
+}
+
+.conditions {
+    min-width: 100%;
+    background-color: #00ADB5;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conditions h2 {
+    color: #222831;
+}
+
+.treatment-grid-container {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.treatment-grid-container img {
+    border: 2px solid #00ADB5;
+}
 
 
 
