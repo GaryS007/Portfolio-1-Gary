@@ -191,6 +191,10 @@ nav a {
     margin-bottom: 2rem;
 }
 
+.treatment-container2 img {
+    width: 100%;
+}
+
 .treatments-text {
     margin-left: 10%;
     margin-right: 10%;
@@ -222,6 +226,8 @@ nav a {
     justify-content: center;
     margin-top: 2rem;
     gap: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .treatment-grid-container > div {
@@ -232,11 +238,11 @@ nav a {
 }
 
 .treatment-grid-container h2 {
+    min-width: 100%;
     position: absolute;
     left: 50%;
     top: 10%;
     transform: translate(-50%, -50%);
-    letter-spacing: 2px;
     color: white;
 }
 
@@ -254,6 +260,7 @@ nav a {
     font-weight: bolder;
     cursor: pointer;
     margin-bottom: 2em;
+    width: 60%;
 }
 
 .treatment-grid-container a:hover {
@@ -271,6 +278,10 @@ nav a {
     grid-template-columns: 1fr 1fr;
     text-align: center;
     margin-top: 2rem;
+}
+
+.treatment2-grid-container img {
+    max-width: 100%;
 }
 
 
@@ -314,7 +325,9 @@ footer a {
 
 /* Responsive */
 
-@media (max-width:800px) {
+
+
+@media (max-width:650px) {
     .header-container {
         text-align: center;
     }
@@ -358,6 +371,9 @@ footer a {
     .treatment2-grid-container {
         grid-template-columns: 1fr;
     }
+    .treatment-grid-container a {
+        width: 80%;
+    }
 
 }
 
@@ -373,6 +389,10 @@ footer a {
 
     .treatment2-grid-container {
         grid-template-columns: 1fr;
+    }
+
+    .treatment2-grid-container img {
+        flex-grow: 1;
     }
 
 
