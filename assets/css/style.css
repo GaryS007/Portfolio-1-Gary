@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -67,7 +68,6 @@ h1, h2 {
     letter-spacing: 4px;
     font-size: 130%;
     text-align: center;
-    text-decoration: none;
 }
 
 nav li {
@@ -77,7 +77,6 @@ nav li {
 
 nav a {
     color: #222831;
-    text-decoration: none;
     padding: 1em;
 }
 
@@ -145,10 +144,8 @@ nav a {
     border-radius: 10px;
     color: #222831;
     padding: 15px 32px;
-    text-decoration: none;
     font-weight: bolder;
     font-size: 140%;
-    cursor: pointer;
     margin-bottom: 2em;
 }
 
@@ -249,18 +246,17 @@ nav a {
 .treatment-grid-container a {
     position: absolute;
     left: 50%;
-    top: 90%;
+    bottom: 5%;
     transform: translate(-50%, -50%);
     background-color: #00ADB5;
     border: none;
     border-radius: 10px;
     color: #222831;
     padding: 15px 32px;
-    text-decoration: none;
     font-weight: bolder;
-    cursor: pointer;
     margin-bottom: 2em;
-    width: 60%;
+    width: auto;
+    height:auto;
 }
 
 .treatment-grid-container a:hover {
@@ -319,13 +315,16 @@ nav a {
 }
 
 footer a {
-    text-decoration: none;
     color: #00ADB5;
 }
 
 /* Responsive */
 
-
+@media (max-width:350px) {
+    .treatment-grid-container a {
+        width: 70%;
+    }
+}
 
 @media (max-width:650px) {
     .header-container {
@@ -370,9 +369,6 @@ footer a {
 
     .treatment2-grid-container {
         grid-template-columns: 1fr;
-    }
-    .treatment-grid-container a {
-        width: 80%;
     }
 
 }
