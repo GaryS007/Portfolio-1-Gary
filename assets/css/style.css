@@ -182,7 +182,12 @@ nav a {
     margin-right: 10%;
 }
 
-.treatment-container h2 {
+.treatment-container2 {
+    margin-bottom: 2rem;
+}
+
+.treatment-container2 h2 {
+    margin-top: 1rem;
     text-align: center;
 }
 
@@ -195,7 +200,7 @@ nav a {
 .treatments-text h1 {
     text-align: center;
     margin: 1em;
-    display: block-inline;   
+    display: block-inline;
 }
 
 .conditions {
@@ -217,6 +222,43 @@ nav a {
     justify-content: center;
     margin-top: 2rem;
     gap: 1rem;
+}
+
+.treatment-grid-container > div {
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+}
+
+.treatment-grid-container h2 {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 2px;
+    color: white;
+}
+
+.treatment-grid-container a {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    background-color: #00ADB5;
+    border: none;
+    border-radius: 10px;
+    color: #222831;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 2em;
+}
+
+.treatment-grid-container a:hover {
+    border: 2px solid #00ADB5;
+    background-color: white;
+    color: #00ADB5;
 }
 
 .treatment-grid-container img {
