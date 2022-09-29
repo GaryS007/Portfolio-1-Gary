@@ -25,7 +25,7 @@ p {
     margin: 2em 1em;
 }
 
-.container {
+.treatment-container {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -177,11 +177,7 @@ nav a {
     margin-right: 10%;
 }
 
-.treatment-container2 {
-    margin-bottom: 2rem;
-}
-
-.treatment-container2 img {
+.treatment-container img {
     width: 100%;
 }
 
