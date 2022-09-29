@@ -16,8 +16,21 @@ body {
 
 h1, h2 {
     color:#00ADB5;
+    text-align: center;
+    margin: 10px;
 
 }
+
+p {
+    margin: 2em 1em;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 /* Social Media Icons */
 
@@ -123,21 +136,6 @@ nav a {
 }
 
 
-.about-h1 {
-    text-align: center;
-    margin: 5px;
-    display: block-inline;
-}
-
-.about-grid h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.about-grid p {
-    margin: 2em 1em;
-}
-
 .about-button {
     background-color: #00ADB5;
     border: none;
@@ -179,11 +177,6 @@ nav a {
     margin-right: 10%;
 }
 
-.treatment-container h2, .treatment-container2 h2 {
-    margin-top: 1rem;
-    text-align: center;
-}
-
 .treatment-container2 {
     margin-bottom: 2rem;
 }
@@ -195,13 +188,6 @@ nav a {
 .treatments-text {
     margin-left: 10%;
     margin-right: 10%;
-    text-align: center;
-}
-
-.treatments-text h1 {
-    text-align: center;
-    margin: 1em;
-    display: block-inline;
 }
 
 .conditions {
@@ -213,10 +199,10 @@ nav a {
 }
 
 .conditions h2 {
-    color: #222831;
+    color: white;
 }
 
-.treatment-grid-container {
+.treatment-flex-container {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -227,31 +213,32 @@ nav a {
     margin-right: 10%;
 }
 
-.treatment-grid-container > div {
+.treatment-flex-container > div {
     display: inline-block;
     position: relative;
     line-height: 0;
     text-align: center;
 }
 
-.treatment-grid-container h2 {
+.treatment-flex-container h2 {
     min-width: 100%;
     position: absolute;
+    font-size: 20px;
     left: 50%;
     top: 10%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
-.treatment-grid-container a {
+.treatment-flex-container a {
     position: absolute;
     left: 50%;
-    bottom: 5%;
+    top: 85%;
     transform: translate(-50%, -50%);
     background-color: #00ADB5;
     border: none;
     border-radius: 10px;
-    color: #222831;
+    color: white;
     padding: 15px 32px;
     font-weight: bolder;
     margin-bottom: 2em;
@@ -259,13 +246,13 @@ nav a {
     height:auto;
 }
 
-.treatment-grid-container a:hover {
+.treatment-flex-container a:hover {
     border: 2px solid #00ADB5;
     background-color: white;
     color: #00ADB5;
 }
 
-.treatment-grid-container img {
+.treatment-flex-container img {
     border: 2px solid #00ADB5;
 }
 
@@ -278,6 +265,11 @@ nav a {
 
 .treatment2-grid-container img {
     max-width: 100%;
+}
+
+.grid-item {
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -321,7 +313,7 @@ footer a {
 /* Responsive */
 
 @media (max-width:350px) {
-    .treatment-grid-container a {
+    .treatment-flex-container a {
         width: 70%;
     }
 }
