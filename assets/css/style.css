@@ -242,6 +242,24 @@ nav a {
     height:auto;
 }
 
+.grid-button {
+    background-color: #00ADB5;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    font-weight: bolder;
+    width: auto;
+    height:auto;
+    margin-bottom: 2em;
+}
+
+.grid-button:hover {
+    border: 2px solid #00ADB5;
+    background-color: white;
+    color: #00ADB5;
+}
+
 .treatment-flex-container a:hover {
     border: 2px solid #00ADB5;
     background-color: white;
@@ -261,14 +279,13 @@ nav a {
 
 .treatment2-grid-container img {
     max-width: 100%;
+    margin-top: 4rem;
 }
 
 .grid-item {
     height: 100%;
     width: 100%;
 }
-
-
 
 /* Footer */
 
