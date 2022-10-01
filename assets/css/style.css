@@ -317,6 +317,23 @@ footer a {
     color: #00ADB5;
 }
 
+/* TEST TREATMENTS PAGE */
+
+.treatment-image {
+    background-color: red;
+    margin-top: 10px;
+    width: 31.25em;
+    height: 20.8125em;
+    display: inline-block;
+}
+
+.treatment-text {
+    background-color: blue;
+    width: 66em;
+    height: 333px;
+    display: inline-block;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 1400px) {
