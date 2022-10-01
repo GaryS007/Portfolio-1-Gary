@@ -272,7 +272,7 @@ nav a {
 
 .treatment2-grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     text-align: center;
     margin-top: 2rem;
 }
@@ -282,10 +282,12 @@ nav a {
     margin-top: 4rem;
 }
 
-.grid-item {
+.grid-item > div {
     height: 100%;
     width: 100%;
+    vertical-align: middle;
 }
+
 
 /* Footer */
 
