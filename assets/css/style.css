@@ -28,8 +28,8 @@ p {
 .treatment-container {
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
 /* Social Media Icons */
@@ -333,6 +333,33 @@ footer a {
     height: 333px;
     display: inline-block;
 }
+
+.flex-row {
+    display: flex;
+    flex-direction: row; /* this is by default, but I like making direction explicit */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  
+  }
+  
+  .pains {
+    width: 60%; /* Take up 60% of the parent container (assumedly the body) */
+  }
+  
+  .pain > img {
+    margin-right: 1em; /* Slight gap between image and text */
+  }
+  
+  .pain__text > a {
+    margin-top: 1em; /* Slight gap between anchor button and text */
+  }
 
 /* Responsive */
 
