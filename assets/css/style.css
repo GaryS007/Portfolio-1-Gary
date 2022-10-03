@@ -297,26 +297,31 @@ nav a {
 
 .contact-container {
     display: flex;
-    flex-direction: row;
     width: 80%;
-    color: white;
+    color: #00ADB5;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .signup-form {
-    display: flex;
-    flex-direction: column;
     width: 100%;
     padding: 50px;
 }
 
 .map {
-    display: flex;
-    flex-direction: column;
     padding: 50px;
     width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+}
+
+.map iframe{
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 .signup-form h2 {
