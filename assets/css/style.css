@@ -14,7 +14,7 @@ body {
 }
 
 
-h1, h2 {
+h1, h2, h3 {
     color:#00ADB5;
     text-align: center;
     margin: 10px;
@@ -170,6 +170,17 @@ nav a {
 
 /* Treatments Page */
 
+.hero-image-treatments {
+    min-height: 50vh;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 2px solid #00ADB5;
+    background: url('../images/Treatments-Hero.jpg') no-repeat center center;
+    align-self: center;
+    justify-content: center;
+    background-size: cover;
+}
+
 .treatment-container {
     margin-bottom: 2rem;
 }
@@ -263,8 +274,7 @@ nav a {
 .treatment2-grid-container {
     display: flex;
     flex-wrap: wrap;
-    /* display: grid;
-    grid-template-columns: auto auto; */
+    flex-direction: column;
     margin-top: 2rem;
 }
 
@@ -283,10 +293,53 @@ nav a {
     
 }
 
+/* Contact Us */
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+}
+
+.signup-form h2 {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+input[type=text], input[type=email], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #00ADB5;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+}
+
 /* Footer */
 
 .footer-container {
-    height: 10rem;
+    height: 100%;
     text-align: center;
     align-items: center;
     background-color: rgba(34, 40, 49, 0.7);
@@ -298,7 +351,6 @@ nav a {
     display: inline-block;
     list-style-type: none;
     margin-right: 22px;
-    margin-top: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     vertical-align: middle;
