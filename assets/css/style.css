@@ -448,6 +448,15 @@ footer a {
         text-align: center;
     }
 
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .map {
+        padding-top: 10px;
+        padding-bottom: 70%;
+    }
+
 }
 
 @media (max-width:650px) {
@@ -505,6 +514,10 @@ footer a {
         margin-right: 0;
         text-align: center;
     }
+
+    .contact-container {
+        flex-direction: column;
+    }
 }
 
 
@@ -520,6 +533,10 @@ footer a {
 
 .treatment-flex-container h2 {
     font-size: 15px;
+}
+
+.contact-container {
+    flex-direction: column;
 }
 
 }
