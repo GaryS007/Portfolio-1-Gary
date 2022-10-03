@@ -295,6 +295,17 @@ nav a {
 
 /* Contact Us */
 
+.hero-image-contact {
+    min-height: 50vh;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 2px solid #00ADB5;
+    background: url('../images/Contact-Us.jpg') no-repeat center center;
+    align-self: center;
+    justify-content: center;
+    background-size: cover;
+}
+
 .contact-container {
     display: flex;
     width: 80%;
@@ -455,6 +466,7 @@ footer a {
     .map {
         padding-top: 10px;
         padding-bottom: 70%;
+
     }
 
 }
