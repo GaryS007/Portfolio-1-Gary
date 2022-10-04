@@ -203,7 +203,7 @@ nav a {
 
 .treatment-flex-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     text-align: center;
     justify-content: center;
     margin-top: 2rem;
@@ -215,6 +215,7 @@ nav a {
     position: relative;
     line-height: 0;
     text-align: center;
+    width: 100%;
 }
 
 .treatment-flex-container h2 {
