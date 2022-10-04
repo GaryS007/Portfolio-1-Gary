@@ -204,7 +204,6 @@ nav a {
 .treatment-flex-container {
     display: flex;
     flex-direction: row;
-    flex-basis: 33.33%;
     flex-wrap: wrap;
     margin-top: 2rem;
     justify-content: center;
@@ -214,10 +213,10 @@ nav a {
 }
 
 .treatment-flex-container > div {
-    display: inline-block;
     position: relative;
     line-height: 0;
     text-align: center;
+
 }
 
 .treatment-flex-container h2 {
@@ -276,7 +275,7 @@ nav a {
 
 
 .flex {
-    width: 100%;
+    min-width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -284,6 +283,8 @@ nav a {
 .grid-text {
     margin-top: 50px;
     width: 100%;
+    flex-shrink: 0.6;
+    flex-flow: row;
 }
 
 .grid-image {
@@ -293,7 +294,12 @@ nav a {
 
 .grid-text h2 {
     text-align: left;
+    margin-left: 1rem;
     
+}
+
+.grid-text a {
+    margin-left: 1rem;
 }
 
 /* Contact Us */
@@ -456,6 +462,14 @@ footer a {
     .grid-text h2 {
         font-size: 18px;
         text-align: center;
+    }
+
+    .grid-text {
+        width: 100%;
+    }
+
+    .grid-image {
+        width: 100%;
     }
 
     .treatment-flex-container {
