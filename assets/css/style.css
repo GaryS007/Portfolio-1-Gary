@@ -204,10 +204,13 @@ nav a {
 .treatment-flex-container {
     display: flex;
     flex-direction: row;
-    text-align: center;
-    justify-content: center;
+    flex-basis: 33.33%;
+    flex-wrap: wrap;
     margin-top: 2rem;
-    gap: 1rem;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+
 }
 
 .treatment-flex-container > div {
@@ -215,7 +218,6 @@ nav a {
     position: relative;
     line-height: 0;
     text-align: center;
-    width: 100%;
 }
 
 .treatment-flex-container h2 {
@@ -456,6 +458,10 @@ footer a {
         text-align: center;
     }
 
+    .treatment-flex-container {
+        flex-direction: column;
+    }
+
     .treatment-container {
         margin-left: 0;
         margin-right: 0;
@@ -520,6 +526,10 @@ footer a {
         margin-bottom: 40px;
     }
 
+    .treatment-flex-container {
+        flex-direction: column;
+    }
+
     .treatment-flex-container a {
         width: 70%;
     }
@@ -545,6 +555,10 @@ footer a {
 .treatment-container {
     margin-left: 0;
     margin-right: 0;
+}
+
+.treatment-flex-container {
+    flex-direction: column;
 }
 
 .treatment-flex-container a {
