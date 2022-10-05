@@ -19,6 +19,11 @@ h1, h2, h3 {
     text-align: center;
 }
 
+h1 {
+    margin: 1em;
+    font-size: 2em;
+}
+
 
 .treatment-container {
     padding-left: 15px;
@@ -96,6 +101,7 @@ nav a {
 
 .nav-container a:hover {
     color: #00ADB5;
+    font-size: 1.25em;
 }
 
 /* Hero Image */
@@ -134,7 +140,7 @@ nav a {
     background-color: #00ADB5;
     border: none;
     border-radius: 10px;
-    color: #222831;
+    color: white;
     padding: 15px 32px;
     font-weight: bolder;
     font-size: 140%;
@@ -362,6 +368,10 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
     resize: vertical; 
 }
 
+input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover, select:hover, textarea:hover {
+    border: 2px solid #00ADB5;
+}
+
 /* Footer */
 
 .footer-container {
@@ -442,6 +452,12 @@ footer a {
     background-color: #00ADB5;
     border-radius: 0.75em;
     padding: 1em 2.5em;
+}
+
+.pain__text > a:hover {
+    border: 2px solid #00ADB5;
+    background-color: white;
+    color: #00ADB5;
 }
 
 /* Responsive */
