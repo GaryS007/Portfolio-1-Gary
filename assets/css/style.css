@@ -324,11 +324,12 @@ nav a {
 
 .contact-container {
     display: flex;
-    width: 80%;
+    width: 90%;
     color: #00ADB5;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    justify-content: space-evenly;
 }
 
 .signup-form {
@@ -345,11 +346,38 @@ nav a {
     height: 0;
 }
 
-.map iframe{
+.map iframe {
     height: 100%;
     width: 100%;
     position: absolute;
 }
+
+.contact-info {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-info > div {
+    box-shadow: 2px 0 #00ADB5;
+    padding: 4em;
+}
+
+.contact-info h3 {
+    margin-bottom: 0.5em;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #00ADB5;
+}
+
+.contact-info  a:hover {
+    opacity: 0.7;
+}
+
 
 .signup-form h2 {
     text-align: left;
@@ -404,6 +432,8 @@ input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover, select:h
 footer a {
     color: #00ADB5;
 }
+
+
 
 /* TEST TREATMENTS PAGE */
 
@@ -537,6 +567,25 @@ footer a {
 
     }
 
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info > div {
+        box-shadow: 0 2px #00ADB5;
+        padding: 2em;
+    }
+    
+
+    .contact-info h3 {
+        margin-top: 0.5em;
+    }
+
+    .contact-info p {
+        text-align: center;
+    }
+
 }
 
 @media (max-width:650px) {
@@ -565,6 +614,7 @@ footer a {
 
     .social-container {
         text-align: center;
+        margin-bottom: 1.75em;
     }
 
 
