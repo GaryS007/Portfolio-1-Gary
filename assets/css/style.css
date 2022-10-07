@@ -101,7 +101,7 @@ nav a {
 
 .nav-container a:hover {
     color: #00ADB5;
-    font-size: 1.25em;
+    font-weight: bolder;
 }
 
 /* Hero Image */
@@ -121,7 +121,7 @@ nav a {
     width: 100%;
     margin-top: 10px;
     border-top: 2px solid #00ADB5;
-    background: url('../images/Hero\ Image\ 1.jpg') no-repeat center center;
+    background: url('../images/Home-Hero.jpg') no-repeat center center;
     align-self: center;
     justify-content: center;
     background-size: cover;
