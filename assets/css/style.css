@@ -24,14 +24,6 @@ h1 {
     font-size: 2em;
 }
 
-
-.treatment-container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
@@ -80,29 +72,6 @@ nav ul li a:before {
     opacity: 0.7;
 }
 
-.nav-container ul li a {
-    position: relative;
-}
-
-.nav-container ul li a:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 0%;
-    content: '.';
-    color: transparent;
-    background: #00ADB5;
-    height: 1px;
-}
-
-.nav-container ul li a:hover:after {
-    width: 100%;
-}
-
-
-
 /* Navigation */
 
 .nav-container {
@@ -129,8 +98,29 @@ nav a {
 
 .nav-container a:hover {
     color: #00ADB5;
-    font-weight: bolder;
 }
+
+.nav-container ul li a {
+    position: relative;
+}
+
+.nav-container ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #00ADB5;
+    height: 1px;
+}
+
+.nav-container ul li a:hover:after {
+    width: 100%;
+}
+
 
 /* Hero Image */
 
@@ -215,8 +205,12 @@ nav a {
 }
 
 .treatment-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 2rem;
-}
+  }
 
 .treatment-container img {
     max-width: 100%;
@@ -422,6 +416,10 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
 
 input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover, select:hover, textarea:hover {
     border: 2px solid #00ADB5;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, select:focus, textarea:focus {
+    outline: 1px solid #00ADB5;
 }
 
 /* Footer */
