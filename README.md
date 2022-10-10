@@ -1,108 +1,49 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Physio Medical
 
-Welcome GaryS007,
+Physio Medical is a Website that enables people seeking assistance with physical pain to read information about that pain and also conveniently arrange an appointment. With a simple yet attractive homepage that will briefly explain what we do and how we can help. A treatments pain which anyone suffering with pain can relate to and read information about. Then finally a contact us page which allows them to contact the practice or look at their location via google maps. This website is specifically for people seeking a Physical Therapist in their local area so they can arrange an appointment and seek treatment ASAP.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The aim of my project was to build a functional, practical and responsive website using CSS and HTML.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Live link to website](https://garys007.github.io/Portfolio-1-Gary/)
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Social Media Header 
 
-`python3 -m http.server`
+The first thing I built for my website was the Social Media Header. I wanted to have my social media icons in the header and the footer for additional visibility. The header icons also include Phone & Email contact buttons for convenience. 
 
-A blue button should appear to click: _Make Public_,
+- Social Media Header is featured on all pages. Was created using a simple layout with hover effects.
+- The only media query required is to ``text-align: center;``
 
-Another blue button should appear to click: _Open Browser_.
+### Navigation and Logo
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Navigation Screenshot](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Navigation.png)
 
-A blue button should appear to click: _Make Public_,
+In my Mockup I had different plans for the header, but changed my mind when it came to implementing the code. Due to having a small navigation, I liked the idea of centering the logo and navigation menus to make better use of space on more popular viewing devices.
 
-Another blue button should appear to click: _Open Browser_.
+- Logo & Navigation is present on all pages and is fully responsive.
+- I used Flexbox for my header container to ensure responsiveness and to reduce the amount of media queries required.
+- Navigation has a unique and stylish hover effect with a .5s transition set. This specific effect is only viewable on desktop devices.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Home Page
 
-To log into the Heroku toolbelt CLI:
+![Homepage Grid Layout](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Home-Grid.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+I wanted a simple homepage design that can talk about how we as a Physical Therapist practice can help somebody in pain and to have the ability to link them to internal pages to provide them with additional assistance. I learned about CSS Grid and wanted to use CSS Grid on my home page to create achieve a responsive page with few media queries.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Just like my Mockup I did a simple 4 box layout, Image Left, Text Right. Then on a new row, Text Left and Image Right. 
+- Each text box has a H2 and a button to bring the visitor to the appropriate page.
+- Full width hero image this hero image design is utilized on all internal pages.
+- This section provides the user with nice imagery and quick understanding on the next steps of seeking treatment.
 
-------
+### Footer
 
-## Release History
+![Footer](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/footer.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- This section includes links to each relevant social media platform.
+- Links open up in new tabs so the customer can easily navigate back to the website.
+- Contact Information & Copyright information also present.
+- Used a contrasting dark shade of grey to compliment the chosen design colour.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
