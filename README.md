@@ -38,12 +38,24 @@ I wanted a simple homepage design that can talk about how we as a Physical Thera
 
 ### Footer
 
-![Footer](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/footer.png)
+![Footer](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Footer.png)
 
 - This section includes links to each relevant social media platform.
 - Links open up in new tabs so the customer can easily navigate back to the website.
 - Contact Information & Copyright information also present.
 - Used a contrasting dark shade of grey to compliment the chosen design colour.
+
+### Treatments
+
+![Common Treatment Options](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Common-Treatments.png)
+
+My Treatments page enables the User to quickly choose what pain they are suffering with. It contains a short intro to the benefits of Physical Therapy and by clicking More Info on one of the pain types, it will anchor to the appropriate text which also has a Contact Us button so they can get in touch with the practice in relation to the pain they're experiencing. This functionality prevents excessive scrolling which is beneficial when on smaller mobile devices. They can access information required with the click of a button. Using anchors prevents the need for additional html pages.
+
+- I used Flexbox to achieve this section, using flexbox reduces the amount of media queries required to make the content fit. I could have used Grid for this also, but wanted my Treatments page to fully utilize flexbox in all design choices.
+- More Info will anchor directly to more text associated with the pain type to minimize the amount of scrolling required.
+- Convenient and Flexible section that contains image, h2, text and call to action button with a grety background to make each section pop. 
+
+![Individual Pain Types with Text](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Pain-Types.png)
 
 
 
