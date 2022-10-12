@@ -139,7 +139,7 @@ nav a {
     width: 100%;
     margin-top: 10px;
     border-top: 2px solid #00ADB5;
-    background: url('../images/Home-Hero.jpg') no-repeat center center;
+    background: url('../images/Home-Hero-New.jpg') no-repeat center center;
     align-self: center;
     justify-content: center;
     background-size: cover;
@@ -381,6 +381,10 @@ nav a {
     margin-bottom: 0.5em;
 }
 
+.contact-info p {
+    text-align: center;
+}
+
 .contact-info a {
     text-decoration: none;
     color: #00ADB5;
@@ -508,8 +512,7 @@ footer a {
     }
 
     .map {
-        padding-top: 10px;
-        padding-bottom: 70%;
+        padding: 10px 0 70% 0;
 
     }
 
@@ -563,7 +566,6 @@ footer a {
         margin-bottom: 1.75em;
     }
 
-
     .about-h1 {
         margin-top: 50px;
     }
@@ -603,6 +605,7 @@ footer a {
     .contact-container {
         flex-direction: column;
     }
+
 }
 
 
