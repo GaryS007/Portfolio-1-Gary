@@ -85,6 +85,14 @@ While building this website, I created a Test Page to test new ideas and specifi
     - he first child option element of a select element with a required attribute, and without a multiple attribute, and without a size attribute whose value is greater than 1, must have either an empty value attribute, or must have no text content. Consider either adding a placeholder option label, or adding a size attribute with a value equal to the number of option elements. **As a result of this error, I added in ``<option hidden value>--Choose One--</option>`` to resolve it**
     - Rename all imagery to remove spaces from file names.
     - Incorrect indentation resulted in some display issues.
+
+### Website Versions
+
+There are 3 versions of my project. I originally started and tried to build the website using what I was thought. Here is [Version 1](https://garys007.github.io/Portfolio-1/) of my website. I was not happy with this at all and instead of editing code, I wanted to start from scratch and re-use code I liked in Version 2. 
+
+In [Version 2](https://garys007.github.io/Project-1-New/), I achieved my Mock design but the responsiveness seemed terrible and I would need to add a lot of media queries to fix this. I still had to do my Treatments and Contact Page. Excessive media queries seemed like a waste of time. So that's when I started Version 3 which is the current version. I did research on Responsiveness best practices via Youtube (Mentioned in my Credits section)
+
+What I learned from this process is that Grid and Flexbox are fantastic, but they still require media queries to function responsively. I may have wasted time going about the project this way but it was a great learning experience. I wanted to keep this under the testing section as these versions were a part of my testing and debugging process.
     
 ### Unfixed Bugs
 
