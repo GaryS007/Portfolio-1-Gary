@@ -4,6 +4,8 @@ Physio Medical is a Website that enables people seeking assistance with physical
 
 The aim of my project was to build a functional, practical and responsive website using CSS and HTML.
 
+![Responsive image of website](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Footer.png)
+
 [Live link to website](https://garys007.github.io/Portfolio-1-Gary/)
 
 ## Features
@@ -59,5 +61,58 @@ My Treatments page enables the User to quickly choose what pain they are sufferi
 
 ### Contact Us
 
+![Contact Us Layout](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Contact.png)
+
+Simple contact page layout enabling the user to locate all contact details required, a contact us form to fill out or interact with the google map location.
+
+- Flexbox to achieve a responsive design with minimal media queries.
+- iframe from Google Maps for directions.
+- Form to enable user to contact the company from the website directly.
+
+### Features left to implement
+
+- I would ideally directly connect a 3rd party piece of software to enable a user to book a specific timeslot for a treatment.
+- Use Javascript to have a more feature rich Treatments page. Instead of using anchors, use Javascript to load in appropriate imagery/text for each specific treatment issue.
+
+## Testing
+
+While building this website, I created a Test Page to test new ideas and specific layouts. As a rule of thumb, I did a lot of my testing as I built each section. I didn't want to move on from 1 section to another until I was satisfied. Manually clicking and testing each URL, using Chrome Dev Tools to test responsiveness on all pages for each specific section. 
+
+### Validator Testing
+- Ran all **HTML** through [WC3 Validator](https://validator.w3.org/) and found some basic errors. 
+    - Remove trailing slashes on void elements. 
+    - Adding spaces to ``<a href=>`` resulted in errors. Removed spaces on all pages where appropriate.
+    - he first child option element of a select element with a required attribute, and without a multiple attribute, and without a size attribute whose value is greater than 1, must have either an empty value attribute, or must have no text content. Consider either adding a placeholder option label, or adding a size attribute with a value equal to the number of option elements. **As a result of this error, I added in ``<option hidden value>--Choose One--</option>`` to resolve it**
+    - Rename all imagery to remove spaces from file names.
+    - Incorrect indentation resulted in some display issues.
+    
+### Unfixed Bugs
+
+All bugs have been resolved. There are some concepts I would have liked to implement or test using Javascript. Specifically on the Treatments page, instead of relying on Anchors to each piece of content, I could use Javascript to load in the necessary Text/Imagery when the user clicked on More Info. This would reduce scrolling and be a bit more slick. It could have also allowed me to add more text to each pain type.
+
+I wasn't 100% happy with my Imagery, I think for more business orientated websites paying a subscription to one of the websites would be worthwhile as they provide far superior images.
+
+## Deployment
+ 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+    The live link can be found here - https://garys007.github.io/Portfolio-1-Gary/index.html
+
+## Credits
+
+- Treatments Page Text was taken directly from Wikipedia, you can view each article I used here - [Neck Pain](https://en.wikipedia.org/wiki/Neck_pain) | [Back Pain](https://en.wikipedia.org/wiki/Back_pain) | [Chronic Pain](https://en.wikipedia.org/wiki/Chronic_pain) | [Sports Injury](https://en.wikipedia.org/wiki/Sports_injury) | [Shoulder Problems](https://en.wikipedia.org/wiki/Shoulder_problem) | [Running Injuries](https://en.wikipedia.org/wiki/Running_injuries)
+- I learned how to implement Grid and Flexbox via Youtube Tutorials. The channel is by Kevin Powell and here are the 2 videos I focused on - [Learn Grid the Easy Way CSS](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=3s&ab_channel=KevinPowell) | [Learn Flexbox the easy way CSS](https://www.youtube.com/watch?v=u044iM9xsWU&ab_channel=KevinPowell)
+- All Images were sourced from Pixabay and Pexels. 
+
+## Mock Designs
+
+I did a Homepage Mock and a Treatments page Mock as these were the 2 most important layouts to me. I did end up deviating from the original design a little bit. Only when I seen my mock live, did I realise I wanted to amend some things.
+
+![Homepage Mock](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Homepage-Mock.png)
+
+![Treatments Mock](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Treatments-Mock.png)
 
 
