@@ -4,7 +4,7 @@ Physio Medical is a Website that enables people seeking assistance with physical
 
 The aim of my project was to build a functional, practical and responsive website using CSS and HTML.
 
-![Responsive image of website](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Footer.png)
+![Responsive image of website](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Responsive.png)
 
 [Live link to website](https://garys007.github.io/Portfolio-1-Gary/)
 
@@ -106,6 +106,7 @@ I wasn't 100% happy with my Imagery, I think for more business orientated websit
 - Treatments Page Text was taken directly from Wikipedia, you can view each article I used here - [Neck Pain](https://en.wikipedia.org/wiki/Neck_pain) | [Back Pain](https://en.wikipedia.org/wiki/Back_pain) | [Chronic Pain](https://en.wikipedia.org/wiki/Chronic_pain) | [Sports Injury](https://en.wikipedia.org/wiki/Sports_injury) | [Shoulder Problems](https://en.wikipedia.org/wiki/Shoulder_problem) | [Running Injuries](https://en.wikipedia.org/wiki/Running_injuries)
 - I learned how to implement Grid and Flexbox via Youtube Tutorials. The channel is by Kevin Powell and here are the 2 videos I focused on - [Learn Grid the Easy Way CSS](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=3s&ab_channel=KevinPowell) | [Learn Flexbox the easy way CSS](https://www.youtube.com/watch?v=u044iM9xsWU&ab_channel=KevinPowell)
 - All Images were sourced from Pixabay and Pexels. 
+- Logo was designed by a family member for my website specifically.
 
 ## Mock Designs
 
