@@ -107,6 +107,7 @@ I wasn't 100% happy with the Imagery, I think for more business orientated websi
 - I learned how to implement Grid and Flexbox via Youtube Tutorials. The channel is by Kevin Powell and here are the 2 videos I focused on - [Learn Grid the Easy Way CSS](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=3s&ab_channel=KevinPowell) | [Learn Flexbox the easy way CSS](https://www.youtube.com/watch?v=u044iM9xsWU&ab_channel=KevinPowell)
 - All Images were sourced from Pixabay and Pexels. 
 - Logo was designed by a family member for my website specifically.
+- Mentor Sandeep Aggarwal.
 
 ## Mock Designs
 
