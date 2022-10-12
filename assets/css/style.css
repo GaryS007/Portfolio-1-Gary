@@ -409,8 +409,7 @@ nav a {
     margin-bottom: 10px;
 }
 
-
-input[type=text], input[type=email], input[type=tel], select, textarea {
+.contact-field {
     width: 100%;
     padding: 12px;
     border: 1px solid #00ADB5;
@@ -420,11 +419,11 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
     resize: vertical; 
 }
 
-input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover, select:hover, textarea:hover {
+.contact-field:hover {
     border: 2px solid #00ADB5;
 }
 
-input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, select:focus, textarea:focus {
+.contact-field:focus {
     outline: 1px solid #00ADB5;
 }
 

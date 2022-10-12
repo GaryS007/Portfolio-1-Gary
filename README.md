@@ -57,5 +57,7 @@ My Treatments page enables the User to quickly choose what pain they are sufferi
 
 ![Individual Pain Types with Text](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Pain-Types.png)
 
+### Contact Us
+
 
 
