@@ -12,7 +12,7 @@ The aim of my project was to build a functional, practical and responsive websit
 
 ### Social Media Header 
 
-The first thing I built for my website was the Social Media Header. I wanted to have my social media icons in the header and the footer for additional visibility. The header icons also include Phone & Email contact buttons for convenience. 
+The first thing I built was the Social Media Header. I wanted to have the social media icons in the header and the footer for additional visibility. The header icons also include Phone & Email contact buttons for convenience. 
 
 - Social Media Header is featured on all pages. Was created using a simple layout with hover effects.
 - The only media query required is to ``text-align: center;``
@@ -21,7 +21,7 @@ The first thing I built for my website was the Social Media Header. I wanted to 
 
 ![Navigation Screenshot](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Navigation.png)
 
-In my Mockup I had different plans for the header, but changed my mind when it came to implementing the code. Due to having a small navigation, I liked the idea of centering the logo and navigation menus to make better use of space on more popular viewing devices.
+The mock design had different plans for the header, but changed my mind when it came to implementing the code. Due to having a small navigation, I liked the idea of centering the logo and navigation menus to make better use of space on more popular viewing devices.
 
 - Logo & Navigation is present on all pages and is fully responsive.
 - I used Flexbox for my header container to ensure responsiveness and to reduce the amount of media queries required.
@@ -33,7 +33,7 @@ In my Mockup I had different plans for the header, but changed my mind when it c
 
 I wanted a simple homepage design that can talk about how we as a Physical Therapist practice can help somebody in pain and to have the ability to link them to internal pages to provide them with additional assistance. I learned about CSS Grid and wanted to use CSS Grid on my home page to create achieve a responsive page with few media queries.
 
-- Just like my Mockup I did a simple 4 box layout, Image Left, Text Right. Then on a new row, Text Left and Image Right. 
+- Just like my mock I did a simple 4 box layout, Image Left, Text Right. Then on a new row, Text Left and Image Right. 
 - Each text box has a H2 and a button to bring the visitor to the appropriate page.
 - Full width hero image this hero image design is utilized on all internal pages.
 - This section provides the user with nice imagery and quick understanding on the next steps of seeking treatment.
@@ -51,7 +51,7 @@ I wanted a simple homepage design that can talk about how we as a Physical Thera
 
 ![Common Treatment Options](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Common-Treatments.png)
 
-My Treatments page enables the User to quickly choose what pain they are suffering with. It contains a short intro to the benefits of Physical Therapy and by clicking More Info on one of the pain types, it will anchor to the appropriate text which also has a Contact Us button so they can get in touch with the practice in relation to the pain they're experiencing. This functionality prevents excessive scrolling which is beneficial when on smaller mobile devices. They can access information required with the click of a button. Using anchors prevents the need for additional html pages.
+The Treatments page enables the User to quickly choose what pain they are suffering with. It contains a short intro to the benefits of Physical Therapy and by clicking More Info on one of the pain types, it will anchor to the appropriate text which also has a Contact Us button so they can get in touch with the practice in relation to the pain they're experiencing. This functionality prevents excessive scrolling which is beneficial when on smaller mobile devices. They can access information required with the click of a button. Using anchors prevents the need for additional html pages.
 
 - I used Flexbox to achieve this section, using flexbox reduces the amount of media queries required to make the content fit. I could have used Grid for this also, but wanted my Treatments page to fully utilize flexbox in all design choices.
 - More Info will anchor directly to more text associated with the pain type to minimize the amount of scrolling required.
@@ -90,7 +90,7 @@ While building this website, I created a Test Page to test new ideas and specifi
 
 All bugs have been resolved. There are some concepts I would have liked to implement or test using Javascript. Specifically on the Treatments page, instead of relying on Anchors to each piece of content, I could use Javascript to load in the necessary Text/Imagery when the user clicked on More Info. This would reduce scrolling and be a bit more slick. It could have also allowed me to add more text to each pain type.
 
-I wasn't 100% happy with my Imagery, I think for more business orientated websites paying a subscription to one of the websites would be worthwhile as they provide far superior images.
+I wasn't 100% happy with the Imagery, I think for more business orientated websites paying a subscription to the likes of shutterstock would be worthwhile as they provide far superior images.
 
 ## Deployment
  
