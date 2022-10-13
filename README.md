@@ -78,14 +78,18 @@ Simple contact page layout enabling the user to locate all contact details requi
 
 While building this website, I created a Test Page to test new ideas and specific layouts. As a rule of thumb, I did a lot of my testing as I built each section. I didn't want to move on from 1 section to another until I was satisfied. Manually clicking and testing each URL, using Chrome Dev Tools to test responsiveness on all pages for each specific section. 
 
-### Validator Testing
+### Validator Testing & Bug Fixes
 - Ran all **HTML** through [WC3 Validator](https://validator.w3.org/) and found some basic errors. 
     - Remove trailing slashes on void elements. 
     - Adding spaces to ``<a href=>`` resulted in errors. Removed spaces on all pages where appropriate.
     - he first child option element of a select element with a required attribute, and without a multiple attribute, and without a size attribute whose value is greater than 1, must have either an empty value attribute, or must have no text content. Consider either adding a placeholder option label, or adding a size attribute with a value equal to the number of option elements. **As a result of this error, I added in ``<option hidden value>--Choose One--</option>`` to resolve it**
     - Rename all imagery to remove spaces from file names.
     - Incorrect indentation resulted in some display issues.
-
+    - About Us section on Homepage had incorrect Image / H2 / Text layout on mobile. Used a media query to resolve ``.about-grid:nth-of-type(4) {
+        order: 3;
+        margin-top: 1em;
+    }``
+    - Add Shadow effect to Text overlayed onto Common Treatment images. Text was hard to read without it.
 ### Website Versions
 
 There are 3 versions of my project. I originally started and tried to build the website using what I was thought. Here is [Version 1](https://garys007.github.io/Portfolio-1/) of my website. I was not happy with this at all and instead of editing code, I wanted to start from scratch and re-use code I liked in Version 2. 
