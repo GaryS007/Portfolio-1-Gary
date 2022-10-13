@@ -116,6 +116,7 @@ I wasn't 100% happy with the Imagery, I think for more business orientated websi
 - All Images were sourced from Pixabay and Pexels. 
 - Logo was designed by a family member for my website specifically.
 - Mentor Sandeep Aggarwal.
+- [Youtube video on homepage](https://www.youtube.com/watch?v=To9VzfdWYlc&ab_channel=ThePhysicalTherapyandWellnessChannel)
 
 ## Mock Designs
 
