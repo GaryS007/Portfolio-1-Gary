@@ -193,6 +193,7 @@ nav a {
     border: 2px solid #00ADB5;
     background-color: white;
     color: #00ADB5;
+    text-shadow: 0 0 0 #222831;
 }
 
 .youtube-video {
@@ -300,6 +301,13 @@ nav a {
     text-shadow: 1px 1px 3px #222831;
 }
 
+.treatment-flex-container a:hover {
+    border: 2px solid #00ADB5;
+    background-color: white;
+    color: #00ADB5;
+    text-shadow: 0 0 0 #222831;
+}
+
 .pain {
     display: flex;
     flex-direction: row;
@@ -353,6 +361,7 @@ nav a {
     border: 2px solid #00ADB5;
     background-color: white;
     color: #00ADB5;
+    text-shadow: 0 0 0 #222831;
 }
 
 /* Contact Us */
