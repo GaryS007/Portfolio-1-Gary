@@ -1,6 +1,6 @@
 # Physio Medical
 
-Physio Medical is a Website that enables people seeking assistance with physical pain to read information about that pain and also conveniently arrange an appointment. With a simple yet attractive homepage that will briefly explain what we do and how we can help. A treatments pain which anyone suffering with pain can relate to and read information about. Then finally a contact us page which allows them to contact the practice or look at their location via google maps. This website is specifically for people seeking a Physical Therapist in their local area so they can arrange an appointment and seek treatment ASAP.
+Physio Medical is a Website that enables people seeking assistance with physical pain to read information about that pain and also conveniently contact the practice regarding their issue. With a simple homepage layout that briefly explains what we do and how we can help. Navigation aside, the homepage content conveniently links to the Treatments page which lists a variety of potential issues and provides information on each. Then finally a contact us page which allows them to contact the practice via a contact or look at their location via google maps. This website is specifically for people seeking a Physical Therapist in their local area so they can arrange an appointment and seek treatment ASAP.
 
 The aim of my project was to build a functional, practical and responsive website using CSS and HTML.
 
@@ -15,7 +15,7 @@ The aim of my project was to build a functional, practical and responsive websit
 The first thing I built was the Social Media Header. I wanted to have the social media icons in the header and the footer for additional visibility. The header icons also include Phone & Email contact buttons for convenience. 
 
 - Social Media Header is featured on all pages. Was created using a simple layout with hover effects.
-- The only media query required is to ``text-align: center;``
+- The only media query required is to ``text-align: center;``.
 
 ### Navigation and Logo
 
@@ -26,16 +26,17 @@ The mock design had different plans for the header, but changed my mind when it 
 - Logo & Navigation is present on all pages and is fully responsive.
 - I used Flexbox for my header container to ensure responsiveness and to reduce the amount of media queries required.
 - Navigation has a unique and stylish hover effect with a .5s transition set. This specific effect is only viewable on desktop devices.
+- Stylish Logo Design for 'Physio Medical'.
 
 ### Home Page
 
 ![Homepage Grid Layout](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Home-Grid.png)
 
-I wanted a simple homepage design that can talk about how we as a Physical Therapist practice can help somebody in pain and to have the ability to link them to internal pages to provide them with additional assistance. I learned about CSS Grid and wanted to use CSS Grid on my home page to create achieve a responsive page with few media queries.
+I wanted a simple homepage design that can talk about how we as a Physical Therapist practice can help somebody in pain and to have the ability to link them to internal pages to provide them with additional assistance. I learned about CSS Grid and wanted to use CSS Grid on my home page to achieve a responsive page with few media queries.
 
 - Just like my mock I did a simple 4 box layout, Image Left, Text Right. Then on a new row, Text Left and Image Right. 
-- Each text box has a H2 and a button to bring the visitor to the appropriate page.
-- Full width hero image this hero image design is utilized on all internal pages.
+- Each text box has a H2 and a call to action button to bring the visitor to the appropriate page.
+- Full width hero image. This hero image design is utilized on all internal pages.
 - This section provides the user with nice imagery and quick understanding on the next steps of seeking treatment.
 
 ### Footer
@@ -54,8 +55,10 @@ I wanted a simple homepage design that can talk about how we as a Physical Thera
 The Treatments page enables the User to quickly choose what pain they are suffering with. It contains a short intro to the benefits of Physical Therapy and by clicking More Info on one of the pain types, it will anchor to the appropriate text which also has a Contact Us button so they can get in touch with the practice in relation to the pain they're experiencing. This functionality prevents excessive scrolling which is beneficial when on smaller mobile devices. They can access information required with the click of a button. Using anchors prevents the need for additional html pages.
 
 - I used Flexbox to achieve this section, using flexbox reduces the amount of media queries required to make the content fit. I could have used Grid for this also, but wanted my Treatments page to fully utilize flexbox in all design choices.
-- More Info will anchor directly to more text associated with the pain type to minimize the amount of scrolling required.
+- More Info buttons will anchor directly to more text associated with the pain type to minimize the amount of scrolling required.
 - Convenient and Flexible section that contains image, h2, text and call to action button with a grety background to make each section pop. 
+- This section took multiple iterations and testing to achieve the correct flexbox layout. 
+- Adding the background-color of #eee really helped bring the layout together, but also ensuring everything fits correctly within each box. 
 
 ![Individual Pain Types with Text](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Pain-Types.png)
 
@@ -76,7 +79,7 @@ Simple contact page layout enabling the user to locate all contact details requi
 
 ## Testing
 
-While building this website, I created a Test Page to test new ideas and specific layouts. As a rule of thumb, I did a lot of my testing as I built each section. I didn't want to move on from 1 section to another until I was satisfied. Manually clicking and testing each URL, using Chrome Dev Tools to test responsiveness on all pages for each specific section. 
+While building this website, I created a Test Page to test new ideas and specific layouts. As a rule of thumb, I did a lot of my testing as I built each section. I didn't want to move on from 1 section to another until I was satisfied. Manually clicking and testing each URL, using Chrome Dev Tools to test responsiveness on all pages for each specific section. Then finally running my HTML and CSS through validators to spot any minor issues. 
 
 ### Validator Testing & Bug Fixes
 - Ran all **HTML** through [WC3 Validator](https://validator.w3.org/) and found some basic errors. 
@@ -105,6 +108,8 @@ All bugs have been resolved. There are some concepts I would have liked to imple
 I wasn't 100% happy with the Imagery, I think for more business orientated websites paying a subscription to the likes of shutterstock would be worthwhile as they provide far superior images.
 
 ## Deployment
+
+I deployed my website on day 1 as I wanted to better understand Github and how to maintain a repository. Doing regular commits and pushes daily, but being able to see my code on local vs live website was great. 
  
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository, navigate to the Settings tab
@@ -121,10 +126,34 @@ I wasn't 100% happy with the Imagery, I think for more business orientated websi
 - Logo was designed by a family member for my website specifically.
 - Mentor Sandeep Aggarwal.
 - [Youtube video on homepage](https://www.youtube.com/watch?v=To9VzfdWYlc&ab_channel=ThePhysicalTherapyandWellnessChannel)
+- Slack in general was a great help, not just for assistance but general motivation and community. Big thanks to my slack group Ian, James, Jose, Lúcio, Thomas, Yanina, Bohdan and Alexia. Everyone provided help and guidance throughout the first project. I like to think I helped them too, as soon as I discovered Flex/Grid I had to share!
+
+## Technologies Used
+
+- Gitpod
+- Github
+- HTML5
+- CSS3
+- Font Awesome
+- Gimp 2 - Used for resizing, cropping and compression of imagery
+- Balsamiq Wireframes - Used to create Mocks
+
+## Fonts & Colours
+
+### Fonts
+
+- Poppins / sans-serif - I think this font is very soft yet extremely easy to read. I chose it through Google Fonts.
+
+### Colours
+
+Due to this being a medical orientated website, I wanted to go for a clean colour approach. 
+- #00ADB5 is used throughout the website as the primary colour to make things pop.
+- #222831 was used in the nav and also for box-shadow. I also converted this colour to an argb with opacity of 0.7 for the footer. 
+- #eee was used on the treatments page as a background colour. 
 
 ## Mock Designs
 
-I did a Homepage Mock and a Treatments page Mock as these were the 2 most important layouts to me. I did end up deviating from the original design a little bit. Only when I seen my mock live, did I realise I wanted to amend some things.
+I did a Homepage Mock and a Treatments page Mock as these were the 2 most important layouts to me. I did end up deviating from the original design a little bit. Only when I seen my mock live, did I realise I wanted to amend some things. Balsamic Wireframes was used to create these mocks.
 
 ![Homepage Mock](https://garys007.github.io/Portfolio-1-Gary/assets/images/readme-images/Homepage-Mock.png)
 
